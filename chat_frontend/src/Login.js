@@ -21,7 +21,7 @@ function Login() {
   return (
     <div className='login'>
         <div className='login_container'>
-            <h1>Sign-in</h1>
+            <h1>Sign-in to chat</h1>
             <form>
                 <h5>E-mail</h5>
                 <input onChange={e => setEmail(e.target.value)} type='email' value={email}/>
