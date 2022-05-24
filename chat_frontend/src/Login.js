@@ -8,12 +8,14 @@ function Login() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
+
+    //function for user signin with email and password
     const signIn = e => {
         e.preventDefault()
         auth
             .signInWithEmailAndPassword(email, password)
             .then(auth => {
-                navigate('/chatroom')
+                navigate('/chatroom') // user will be directed to chatroom after successful  login
             })
             .catch(error => alert(alert.message))
     }

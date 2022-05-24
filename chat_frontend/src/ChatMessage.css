@@ -14,12 +14,14 @@
     border-radius: 10px;
 }
 
+/* The message sent by current user */
 .sent{
     align-self: flex-end;
     line-height: 24px;
     background: #0b93f6;
 }
 
+/* The messages sent by other users */
 .received{
     align-self: flex-start;
     line-height: 24px;
