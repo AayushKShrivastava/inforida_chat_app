@@ -1,7 +1,7 @@
 .chatroom {
     margin: 0 auto;
     max-width: 720px;
-    background-color: antiquewhite;
+    background-color: #181717;
     height: 100vh;
 }
 
@@ -22,11 +22,13 @@
 .messages {
     background-color: rgb(40, 37, 53);
     color: white;
-    padding: 10px 20px 100px 20px;
+    padding:30px 20px 100px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
+    margin-top: 50px;
+    /* height: 100%; */
 }
 
 .form {
